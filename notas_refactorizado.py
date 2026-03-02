@@ -2,19 +2,19 @@
 # Autor: Ricarly Escalona
 # fecha: 2026-03-02
 
-def calcular_media(nota1, nota2, nota3):
+def calcular_media(ra1, ra2, ra3):
     """
     Calcula la media aritmética de tres notas.
 
     Args:
-        nota1 (float): Primera nota del alumno.
-        nota2 (float): Segunda nota del alumno.
-        nota3 (float): Tercera nota del alumno.
+        ra1 (float): Primera nota del alumno.
+        ra2 (float): Segunda nota del alumno.
+        ra3 (float): Tercera nota del alumno.
 
     Returns:
         float: La media de las tres notas.
     """
-    return (nota1 + nota2 + nota3) / 3
+    return (ra1 + ra2 + ra3) / 3
 
 
 def esta_aprobado(media):
@@ -34,7 +34,7 @@ def esta_aprobado(media):
         return False
 
 
-def mostrar_informe_alumno(nombre, nota1, nota2, nota3):
+def mostrar_informe_alumno(nombre, ra1, ra2, ra3):
     """Muestra la información completa de un alumno y su calificación.
 
     Args:
@@ -47,11 +47,11 @@ def mostrar_informe_alumno(nombre, nota1, nota2, nota3):
         float: La media de las tres notas.
     """
     print("Alumno: " + nombre)
-    print("Nota 1: " + str(nota1))
-    print("Nota 2: " + str(nota2))
-    print("Nota 3: " + str(nota3))
+    print("Nota 1: " + str(ra1))
+    print("Nota 2: " + str(ra2))
+    print("Nota 3: " + str(ra3))
 
-    media = calcular_media(nota1, nota2, nota3) # Calculamos la media de las tres notas
+    media = calcular_media(ra1, ra2, ra3) # Calculamos la media de las tres notas
     print("Media: " + str(media))
 
     # Clasificamos la nota según el valor de la media
