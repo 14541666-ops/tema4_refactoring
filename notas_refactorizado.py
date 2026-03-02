@@ -1,6 +1,7 @@
 # programa para calcular la media de tres notas y mostrar notas y resultados de aprobado/suspenso
 # Autor: Ricarly Escalona
 # fecha: 2026-03-02
+
 def calcular_media(nota1, nota2, nota3):
     """
     Calcula la media aritmética de tres notas.
@@ -74,6 +75,7 @@ def main():
     mostrar_informe_alumno("Ana García", 8, 7, 9)
     mostrar_informe_alumno("Luis Pérez", 4, 5, 3)
     mostrar_informe_alumno("Marta Gómez", 6, 7, 5)
-
+    mostrar_informe_alumno("José Braganza", 4, 5, 7.5)
+    mostrar_informe_alumno("Carlos Ruiz", 7, 3, 5)
 
 main()
